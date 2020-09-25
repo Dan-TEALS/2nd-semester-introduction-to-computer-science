@@ -12,20 +12,9 @@ Students will be able to...
 
 * [Do Now][]
 * [Lab - Game Show][] ([printable lab document][]) ([editable lab document][])
-* Solution (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard])
-* [Associated Readings 2.3](https://tealsk12.gitbook.io/intro-cs-2/readings#2-3)
+* Solution (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard][])
+* [Associated Readings 2.3](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/2.3)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
-* **Microsoft Learn - Conditionals Video**
-
-  [![Conditionals Video](https://img.youtube.com/vi/5pPKYWqkoek/0.jpg)](https://www.youtube.com/watch?v=5pPKYWqkoek)
-
-* **Microsoft Learn - Handling Multiple Conditionals Video**
-
-  [![Multiple Conditionals Video](https://img.youtube.com/vi/oYaGJBMoXok/0.jpg)](https://www.youtube.com/watch?v=oYaGJBMoXok)
-
-* **Microsoft Learn - Complex Conditions Video**
-
-  [![Multiple Conditionals Video](https://img.youtube.com/vi/IBOHc87yFYw/0.jpg)](https://www.youtube.com/watch?v=IBOHc87yFYw)
 
 ## Pacing Guide
 
@@ -47,7 +36,6 @@ Students will be able to...
 
 #### Instruction
 
-* Ask students what they felt like they needed that they had in Snap!
 * Explain that in order to write useful programs, we almost always need the ability to check conditions and change the behavior of the program accordingly.
 * **Conditional** statements give us this ability to affect the **flow of control**.
 * The simplest form is the `if` statement. The Boolean expression after `if` is called the condition. If it is true, then the indented statement gets executed. If not, nothing happens.

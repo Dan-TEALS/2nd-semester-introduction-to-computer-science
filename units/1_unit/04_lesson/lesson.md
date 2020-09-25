@@ -12,12 +12,9 @@ Students will be able to...
 
 * [Do Now][]
 * [Lab - Magic Genie][] ([printable lab document][]) ([editable lab document][])
-
-* [Associated Readings 1.3](https://tealsk12.gitbook.io/intro-cs-2/readings#1-3)
+* [Associated Readings 1.3](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/1.3)
 * Read through the Do Now, Lab, and lesson so that you are familiar with the requirements and can assist students
-* **Microsoft Learn - Comments**
 
-  [![Comments Video](https://img.youtube.com/vi/kEuVvUc1Zec/0.jpg)](https://youtu.be/kEuVvUc1Zec)
 
 ## Pacing Guide
 
@@ -33,7 +30,7 @@ Students will be able to...
 ### 1. Do Now
 
 * Project the Do Now on the board, circulate around the class to check that students are working and understand the instructions.
-* Only allow 5 minutes. Additional time will be given to complete
+* Only allow 5 minutes. additional time may be given if the instructor feels it is necessary.
 
 ### 2. Do Now Work & Discussion
 

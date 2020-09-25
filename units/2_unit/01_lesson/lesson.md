@@ -12,16 +12,8 @@ Students will be able to...
 
 * [Do Now][]
 * [Lab - Casting][] ([printable lab document][]) ([editable lab document][])
-
-* [Associated Readings 2.1](https://tealsk12.gitbook.io/intro-cs-2/readings#2-1)
+* [Associated Readings 2.1](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/2.1)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
-* **Microsoft Learn - String Concepts Data Types Video**
-
-  [![Data Types Video](https://img.youtube.com/vi/tSebLz1hNpA/0.jpg)](https://youtu.be/tSebLz1hNpA)
-
-* **Microsoft Learn - Numerical Data Types Video**
-
-  [![Data Types Video](https://img.youtube.com/vi/5yhn0MFLcu8/0.jpg)](https://youtu.be/5yhn0MFLcu8)
 
 ## Pacing Guide
 
@@ -73,7 +65,7 @@ Students will be able to...
 ### 3. Lab
 
 * Practice predicting what casting will do to inputs.
-* Create a halving program as well as program that halves to whole numbers.
+* Create a halving program and a program that converts halves to whole numbers.
 
 ### 4. Debrief
 

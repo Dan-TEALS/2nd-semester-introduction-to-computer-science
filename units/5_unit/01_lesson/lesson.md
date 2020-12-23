@@ -4,7 +4,7 @@
 **Note:** Unit 5 involves a tool called EarSketch from Georgia Tech. EarSketch is a Digital Audio
 Workstation with an embedded scripting environment that supports Python or JavaScript. Using
 EarSketch, students can create songs by writing Python code. All of the Earsketch activities require
-you to use the EarSketch Editor instead of the IDE you have been using so far (_e.g._ Repl.it).
+you to use the EarSketch Editor instead of the IDE you have been using so far.
 
 ## Learning Objectives
 
@@ -17,6 +17,7 @@ Students will be able to...
 
 ## Materials/Preparation
 
+* [5.01 Slide Deck](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/slidedecks/Intro%20Python%205.01%20TEALS.pptx)
 * [Do Now][]
 * [Lab - Intro to EarSketch][] ([printable lab document][]) ([editable lab document][])
 * [EarSketch Editor][]

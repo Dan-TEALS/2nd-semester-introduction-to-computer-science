@@ -4,18 +4,17 @@
 
 Students will be able to...
 
-* Define and identify: **nested list**
-* Use nested for loops to traverse through nested lists
+* Define and identify: **nested list**.
+* Use nested for loops to traverse through nested lists.
 
 ## Materials/Preparation
 
-* [4.04 Slide Deck](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/slidedecks/Intro%20Python%204.04%20TEALS.pptx)
+* [4.04 Slide Deck](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.04%20TEALS.pptx)
 * [Do Now][]
-* [Lab - Shopping List](lab.md) ([printable lab document][]) ([editable lab document][])
-* Read through the Do Now, lesson, and lab so that you are familiar with the requirements and can assist students
-* Explanation video of Nested Lists
-
-  [![Nested List](https://img.youtube.com/vi/kzZR9veV78A/0.jpg)](https://youtu.be/kzZR9veV78A)
+* [Lab - Shopping List](lab.md) ([docx][]) ([pdf][])
+* Read through the Do Now, lesson, and lab so that you are familiar with the requirements and can assist students.
+* Explanation video of Nested Lists.
+  * [Nested Loops](https://youtu.be/fyP4SXpkYG4)
 
 ### Day 1 Pacing
 
@@ -104,6 +103,5 @@ Students may struggle with the concept of nested lists. Be prepared to have addi
 
 [Do Now]: do_now.md
 [Lab - Daily Schedule]: lab.md
-[loop diagram]: http://etutorials.org/shared/images/tutorials/tutorial_169/F05um02.jpg
-[printable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/04_lesson/lab.pdf
-[editable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/04_lesson/lab.docx
+[pdf]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/04_lesson/lab.pdf
+[docx]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/04_lesson/lab.docx

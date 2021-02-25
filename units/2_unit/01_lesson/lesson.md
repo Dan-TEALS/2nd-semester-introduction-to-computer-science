@@ -12,7 +12,7 @@ Students will be able to...
 
 * [2.01 Slide Deck](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/slidedecks/Intro%20Python%202.01%20TEALS.pptx)
 * [Do Now][]
-* [Lab - Casting][] ([printable lab document][]) ([editable lab document][])
+* [Lab - Casting][] ([docx][]) ([pdf][])
 * [Associated Readings 2.1](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/2.1)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 * Video Resources
@@ -45,6 +45,35 @@ Students will be able to...
 
 * Define this process of changing data types as **casting**.
 * Define the `int` function if the students were unable to guess it from the do now.
+* Demonstrate casting `string` to `int` by typing in the following:
+
+```python
+n = int(input())
+9
+type(n)
+<class 'int'>
+```
+
+* Because Python 3 is strongly typed, concatenating strings and numbers requires casting.  Demonstrate by typing the following:
+
+```python
+n = int(input())
+9
+print ("You entered " + n)
+TypeError: Can't convert 'int' object to str implicitly
+```
+
+* Cast the integer to a string. Demonstrate by typing the following:
+
+```python
+n = int(input())
+9
+print ("You entered " + str(n))
+You entered 9
+```
+
+* Swapping Variables Discussion
+
 * Take a few minutes to have students write down how they would produce the following output:
 
    ```python
@@ -55,7 +84,7 @@ Students will be able to...
     ```
 
 * Explain to students that in Python
-  * When asking for input from the user the input is automatically stored as a string and will
+  * When asking for input from the user the input is automatically stored as a string
   * if the input will need to used for calculations or another purpose it will need to be casted to another data type.
 
 #### Student Sharing
@@ -86,5 +115,5 @@ If students are moving quickly, it is possible to introduce the concepts of Bool
 [Do Now]:do_now.md
 [Lab - Casting]:lab.md
 
-[printable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/01_lesson/lab.pdf
-[editable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/01_lesson/lab.docx
+[pdf]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/01_lesson/lab.pdf
+[docx]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/01_lesson/lab.docx

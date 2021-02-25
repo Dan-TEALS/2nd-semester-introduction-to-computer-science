@@ -4,17 +4,17 @@
 
 Students will be able to...
 
-* Define and identify scope, aliasing, stack trace
-* Demonstrate changing a list in a function updates the list outside of the function
-* Demonstrate updating variables in a function does not affect the variable outside of the function
-* Demonstrate using global variables
-* Draw a simple stack trace
+* Define and identify scope, aliasing, stack trace.
+* Demonstrate changing a list in a function updates the list outside of the function.
+* Demonstrate updating variables in a function does not affect the variable outside of the function.
+* Demonstrate using global variables.
+* Draw a simple stack trace.
 
 ## Materials/Preparation
 
 * [3.04 Slide Deck](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/slidedecks/Intro%20Python%203.04%20TEALS.pptx)
 * [Do Now][]
-* [Lab - Aliasing & Scope][] ([printable lab document][]) ([editable lab document][])
+* [Lab - Aliasing & Scope][] ([docx][]) ([pdf][])
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students.
 * [Associated Readings 3.4](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/3.4)
 
@@ -43,34 +43,31 @@ Students will be able to...
 * Explain the concept of **aliasing**.
 * You can draw on the board a diagram of the variable pointing to a list.
 * Note that when passing the location of a list you are not passing the actual value, so the list can be changed.
-* **Video Explanation of Aliasing**
+* **Video Explanation of Aliasing**:
 
     [![Python - aliasing](https://img.youtube.com/vi/7m_cw30tyr0/0.jpg)](https://www.youtube.com/watch?v=7m_cw30tyr0)
 
 #### Scope of functions
 
-* Explain to students that variable scope is the part of a program where a variable is accessible
+* Explain to students that variable scope is the part of a program where a variable is accessible.
 * A variable which is defined in the main body of a file is called a global variable.
 
 * **Video explanation of Variable Scope**
 
    [![Python - Scope](https://img.youtube.com/vi/A054Ged9suI/0.jpg)](https://youtu.be/A054Ged9suI)
 
-#### Global variables: variables defined outside of a function and used in many different functions
+#### Global variables, Constants and Local Variables
 
-* To modify global variables defined outside the function you must declare the variable with the statement `global name_of_variable`.
-* Any variable created inside of a function is a local variable.
-* Variables in functions include the function parameters, the variables defined in the function and variables declared as global.
-* Local variables of functions can't be accessed from outside when the function call has finished.
 * Explain global variables are often used for constants.
-* NOTE: We use the 'ALL CAPS' convention for global variables.
+* Any variable created inside of a function is a local variable.
+* Variables in functions include the function parameters, the variables defined in the function.
+* Local variables of functions can't be accessed from outside when the function call has finished.
 
 #### Conventions
 
 * Discuss that programming languages frequently have **conventions**. It helps make code more readable, but isn't essential to functionality (in most cases). Here are some examples,
-* camelCase for function names
-* ALL_CAPS for global variables
- underscore_separated for variables
+* When using a global variable as a constant, the convention is to use "All Caps" in the name of the variable.
+* underscore_separated for variables.
 
 #### Stick Diagrams
 
@@ -79,7 +76,7 @@ Students will be able to...
 
 #### Debugging
 
-* Help students follow their program to understand how the code is working
+* Help students follow their program to understand how the code is working.
 * Explain how the use of print statements throughout your code can let you know where in the program things are not operating as expected.
 
 ### 3. Lab
@@ -101,5 +98,5 @@ If students are moving quickly, they can look ahead at the project spec or resea
 
 [Do Now]:do_now.md
 [Lab - Aliasing & Scope]:lab.md
-[printable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/04_lesson/lab.pdf
-[editable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/04_lesson/lab.docx
+[pdf]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/04_lesson/lab.pdf
+[docx]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/04_lesson/lab.docx

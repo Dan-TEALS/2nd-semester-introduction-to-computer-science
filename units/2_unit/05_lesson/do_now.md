@@ -1,50 +1,44 @@
 # Do Now 2.05
 
-## Part 1 - Open up the console
-
-### Type the following example code using interactive mode
+##  Open up the console. Type the following example code using interactive mode:
 
 ### Example 1
 
 ```python
- >>> a = [123, 'First Item', 456, 'Second Item']
- >>> b = a[0:2]
- >>> print(a)
- >>> print(b)
+    a_list = [123, 'First Item', 456, 'Second Item']
+    b_list = a_list[0:2]
+    print(a_list)
+    print(b_list)
 ```
 
-### In your notebook
+#### In your notebook, respond to the following:
 
-#### Respond to the following
-
-1. What happens to a?
-2. What is b?
-3. What type is b?
+1. What happens to `a_list`?
+2. What is in `b_list`?
 
 ### Example 2
 
 ```python
- >>> a = [123, 'First Item', 456]
- >>> a.remove('First Item')
- >>> print(a)
+    a_list = [123, 'First Item', 456, 'Second Item']
+    a_list.remove('First Item')
+    print(a_list)
 ```
 
-### Continue in your notebook
-
-#### Respond to the following questions
+#### Continue in your notebook. Respond to the following questions:
 
 1. What does `remove` do?
-2. What would the length of this list be after `remove`?
+2. What is the length of a_list after the remove?
 
 ### Example 3
 
 ```python
- >>> a = [123, 'First Item', 456]
- >>> a.pop()
- >>> print(a)
+    a_list = [123, 'First Item', 456, 'Second Item']
+    popped_value = a_list.pop()
+    print(a_list)
+    print(popped_value)
 ```
 
-### Continue your responses in your notebook
+#### Continue your responses in your notebook:
 
 1. what does `pop` do?
 2. What is the difference between `remove` and `pop`?
@@ -52,29 +46,27 @@
 ### Example 4
 
 ```python
- >>> a = [123, 'First Item', 456, 'Second Item']
- >>> b = a + ['Third Item']
- >>> print(a)
- >>> print(b)
+    a_list = [123, 'First Item', 456, 'Second Item']
+    b_list = a_list + ['Third Item']
+    print(a_list)
+    print(b_list)
 ```
 
-#### Continue your responses to the following in your notebook
+#### Continue your responses to the following in your notebook:
 
-1. What happens to a?
-2. What is b?
-3. What type is b?
+1. What happens to a_list?
+2. What is in b_list?
 
 ### Example 5
 
 ```python
-
- >>> a = []
- >>> print(len(a))
- >>> a.append('First Item')
- >>> print(a)
+    a_list = ['First Item']
+    print(a_list)
+    a_list.append('Second Item')
+    print(a_list)
 ```
 
-#### In your Notebook
+#### In your notebook, answer:
 
-1. What was the length of `[]`?
-2. What does `append` do? What would the length be after `append`?
+1. What does `append` do?
+2. What would be the length after `append`?

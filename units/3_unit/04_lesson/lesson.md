@@ -4,28 +4,28 @@
 
 Students will be able to...
 
-* Define and identify scope, aliasing, stack trace.
-* Demonstrate changing a list in a function updates the list outside of the function.
-* Demonstrate updating variables in a function does not affect the variable outside of the function.
-* Demonstrate using global variables.
-* Draw a simple stack trace.
+* Define and identify **scope**, **aliasing**, **stack diagram**, **stack trace**.
+* Demonstrate that changing a list inside a function updates the list outside of the function.
+* Demonstrate that updating variables inside a function does **not** affect the variable outside of the function.
+* Demonstrate the use of global variables.
+* Draw a simple stack diagram.
 
 ## Materials/Preparation
 
 * [3.04 Slide Deck](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/slidedecks/Intro%20Python%203.04%20TEALS.pptx)
 * [Do Now][]
 * [Lab - Aliasing & Scope][] ([docx][]) ([pdf][])
-* Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students.
+* Read through the Do Now, lesson, and lab so that you are familiar with the requirements and can assist students.
 * [Associated Readings 3.4](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/3.4)
 
 ## Pacing Guide
 
-| **Duration**   | **Description** |
-| ---------- | ----------- |
-| 5 Minutes  | Do Now      |
-| 10 Minutes | Lesson      |
-| 30 Minutes | Lab/Review         |
-| 10 Minutes | Debrief  |
+| **Duration** | **Description** |
+| ----------   | -----------     |
+| 5 Minutes    | Do Now          |
+| 20 Minutes   | Lesson          |
+| 20 Minutes   | Lab/Review      |
+| 10 Minutes   | Debrief         |
 
 ## Instructor's Notes
 
@@ -56,23 +56,31 @@ Students will be able to...
 
    [![Python - Scope](https://img.youtube.com/vi/A054Ged9suI/0.jpg)](https://youtu.be/A054Ged9suI)
 
-#### Global variables, Constants and Local Variables
+#### Global Variables, Constants and Local Variables
 
 * Explain global variables are often used for constants.
 * Any variable created inside of a function is a local variable.
-* Variables in functions include the function parameters, the variables defined in the function.
+* Variables in functions include the function parameters, the variables defined in the function, and variables declared as global.
 * Local variables of functions can't be accessed from outside when the function call has finished.
 
 #### Conventions
 
-* Discuss that programming languages frequently have **conventions**. It helps make code more readable, but isn't essential to functionality (in most cases). Here are some examples,
-* When using a global variable as a constant, the convention is to use "All Caps" in the name of the variable.
-* underscore_separated for variables.
-
-#### Stick Diagrams
+* Discuss that programming languages frequently have **conventions**. It helps make code more readable, but isn't essential to functionality (in most cases).
+* Here are some examples:
+  * Function and variable names should be lowercase, with words separated by underscores as necessary to improve readability.
+    * [https://www.python.org/dev/peps/pep-0008/#function-and-variable-names](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names)
+  * Constants are usually defined on a module level and written in all capital letters with underscores separating words. Examples include MAX_OVERFLOW and TOTAL.
+    * [https://www.python.org/dev/peps/pep-0008/#constants](https://www.python.org/dev/peps/pep-0008/#constants)
+  
+#### Stack Diagrams
 
 * Demonstrate how to draw the Stack Diagrams shown in the course book ([found in section 3.4](https://tealsk12.gitbook.io/intro-cs-2/readings#stack-diagrams)) and explain how they show the scope of variables as they related to functions.
 * Point out the error messages that will occur if you use a variable out of its scope.
+
+#### Stack Traces
+
+* Show an example of a stack trace for a simple error in the Do Now Part 2 sample code.
+* The error message shows evidence of how Python keeps track a "stack" of functions, each one calling the next one, so that it can make available only the variables that are in scope in the current function.
 
 #### Debugging
 
@@ -81,12 +89,12 @@ Students will be able to...
 
 ### 3. Lab
 
-* This lab has students running code that gets them thinking about aliasing and scope. They must also create a stack trace for a program to show their understanding of scope.
+* This lab has students running code that gets them thinking about aliasing and scope. They must also create a stack diagram for a program to show their understanding of scope.
 
 ### 4. Debrief
 
-* Take time to review the concepts covered today: **scope**, **aliasing**, and **stack traces**.
-* Call a few students to the board to draw their stack traces from the lab and talk through them.
+* Take time to review the concepts covered today: **scope**, **aliasing**, and **stack diagrams**.
+* Call a few students to the board to draw their stack diagrams from the lab and talk through them.
 
 ## Accommodation/Differentiation
 
